@@ -1,14 +1,25 @@
-import React from 'react';
-import Header from '../../components/Header';
-import {Container, Title} from './styles';
+import React from "react";
+import Header from "../../components/Header";
+import { KeyboardView, Container, Title, Input, ButtonSubmit, TextSubmit } from "./styles";
 
 const Signin = () => {
-    return(
-        <Container>
-            <Header/>
-            <Title> Login</Title>
-        </Container>
+    return (
+        <KeyboardView>
+            <Header />
+            <Container>
+                <Title> Login</Title>
+                <Input 
+                placeholder="E-mail"
+                />
+                <Input 
+                placeholder="senha"
+                />
+                <ButtonSubmit>
+                    <TextSubmit> Entrar</TextSubmit>
+                </ButtonSubmit>
+            </Container>
+        </KeyboardView>
     );
-}
+};
 
 export default Signin;
