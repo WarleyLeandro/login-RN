@@ -1,9 +1,13 @@
 import React from 'react';
-import {Title} from './styles';
+import Header from '../../components/Header';
+import {Container, Title} from './styles';
 
 const Signin = () => {
     return(
-        <Title> Olá Mundo</Title>
+        <Container>
+            <Header/>
+            <Title> Login</Title>
+        </Container>
     );
 }
 
