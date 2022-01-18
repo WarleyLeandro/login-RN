@@ -11,20 +11,36 @@ export const Container = styled.View`
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
+  width: 90%;
 `
 
 export const Title = styled.Text`
-  color: red;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 30px;
 `;
 
 export const Input = styled.TextInput`
-
+  border: 2px solid #12E6C8;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 9px;
+  width: 90%;
 `
 
 export const ButtonSubmit = styled.TouchableOpacity`
-
+  background-color: #A287F4;
+  border-radius: 9px;
+  width: 90%;
+  padding: 20px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
 `
 
 export const TextSubmit = styled.Text`
-
+  color: #fff;
 `

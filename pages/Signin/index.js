@@ -12,7 +12,8 @@ const Signin = () => {
                 placeholder="E-mail"
                 />
                 <Input 
-                placeholder="senha"
+                placeholder="Senha"
+                secureTextEntry
                 />
                 <ButtonSubmit>
                     <TextSubmit> Entrar</TextSubmit>
