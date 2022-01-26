@@ -6,7 +6,7 @@ import { Container } from './styles';
 const Header = () => {
     return(
         <Container>
-            <Text>Olá devs</Text>
+            <Text>Olá devs, bem vindos!</Text>
         </Container>
     )
 }
